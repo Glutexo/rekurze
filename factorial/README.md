@@ -112,7 +112,7 @@ def factorial(n):
     return n * factorial(n - 1)
 ```
 
-Toto je již plně funkční implementace, samozřejm opět bez ošetření případu, kdy _n_ není nezáporné celé číslo. Je však stále zbytečně složitá. Můžeme totiž využít předchozího poznání, že faktoriál čísla _1_ zůstane stejný i pokud jej vynásobíme faktoriálem čísla _0_. Jinými slovy, nemusíme ručně definovat hodnotu faktoriálu pro číslo 1 jako 1. Stačí, když ji, stejně jako ostatní čísla vynásobené faktoriálem čísla o jednu menší. Zde nuly, jež už svou hodnotu definovanou má.
+Toto je již plně funkční implementace, samozřejmě opět bez ošetření případu, kdy _n_ není nezáporné celé číslo. Je však stále zbytečně složitá. Můžeme totiž využít předchozího poznání, že faktoriál čísla _1_ zůstane stejný i pokud jej vynásobíme faktoriálem čísla _0_. Jinými slovy, nemusíme ručně definovat hodnotu faktoriálu pro číslo 1 jako 1. Stačí, když ji, stejně jako ostatní čísla vynásobené faktoriálem čísla o jednu menší. Zde nuly, jež už svou hodnotu definovanou má.
 
 > 1 · 0! = 1 · 1 = 1  
 
