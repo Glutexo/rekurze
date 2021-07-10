@@ -1,7 +1,5 @@
 # Faktoriál #
 
-[Zpět](..)
-
 ## Popis ##
 
 [Faktoriál na Wikipedii](https://cs.wikipedia.org/wiki/Faktoriál)
