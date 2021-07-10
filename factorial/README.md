@@ -92,7 +92,7 @@ def factorial(n):
     return n * factorial(n - 1)
 ```
 
-Tento kód ovšem poběží donekonečna, neboť se nezastaví ve chvíli, kdy odečítání dojde k jedničce.
+Tento kód ovšem poběží donekonečna. Nezastaví ve chvíli, kdy odečítání dojde k jedničce.
 
 ```python
 def factorial(n):
